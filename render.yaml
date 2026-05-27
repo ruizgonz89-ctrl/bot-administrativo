@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: bot-administrativo
+    runtime: node
+    buildCommand: npm install
+    startCommand: node app.js
